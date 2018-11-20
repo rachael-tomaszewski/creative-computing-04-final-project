@@ -8,10 +8,6 @@ html {
   font-family: 'Lato', sans-serif;
 }
 
-title {
-  font-size: 34px
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +15,30 @@ body {
   min-height: 100vh;
   color: hsl(17, 45%, 64%);
   background-color: hsl(8, 11%, 92%);
+}
+
+h2 {
+  font-size: 34px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  width: 430px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(8, 47%, 87%);
+}
+
+.content {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .center {
