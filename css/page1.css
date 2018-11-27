@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
   color: hsl(17, 45%, 64%);
   background-color: hsl(8, 11%, 92%);
+  background-image: url("testphoto.jpg")
 }
 
 h2 {
@@ -54,5 +55,4 @@ a {
   height: 100%;
   width: 100%;
 }
-
 
