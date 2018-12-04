@@ -21,7 +21,6 @@ h2 {
   font-size: 34px;
   text-align: justify;
   text-justify: inter-word;
-  padding-left: 5px
 }
 
 h3 {
@@ -56,4 +55,30 @@ a {
   width: 100%;
 }
 
+@keyframes spin {
+  0% {
+    border-top-color: hsl(221, 7%, 94%);
+  }
+  100% {
+    border-top-color: transparent;
+  }
+}
+
+.shape {
+  width: 0;
+  height: 0;
+  border-top: 800px solid hsl(221, 4%, 88%);
+  border-left: 60px solid transparent;
+  margin: 0;
+  display: inline-block;
+  transition: all 2s;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.shape-interaction {
+  transform: rotate(450deg);
+}
 
