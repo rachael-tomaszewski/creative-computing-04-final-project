@@ -47,24 +47,17 @@ a {
 
 .content {
   height: 100%;
-  width: 100%;
-  background: #efefef;
+  min-height: 100vh;
+  width: 500%;
+  background: #e0e1e2;
   position: relative;
   font-size: 0;
   line-height: 0;
 }
 
-.words h1 span:hover {
-  color: salmon;
-}
-
-.begin h1 span:hover {
-  color: salmon;
-}
-
 @keyframes spin {
   0% {
-    border-top-color: hsl(221, 7%, 94%);
+    border-top-color: hsl(210, 23%, 91%);
   }
   100% {
     border-top-color: transparent;
@@ -74,8 +67,8 @@ a {
 .shape {
   width: 0;
   height: 0;
-  border-top: 800px solid hsl(221, 4%, 88%);
-  border-left: 60px solid transparent;
+  border-top: 8200px solid hsl(210, 5%, 82%);
+  border-left: 25px solid transparent;
   margin: 0;
   display: inline-block;
   transition: all 2s;
