@@ -36,11 +36,6 @@ a {
   color: hsl(17, 51%, 67%);
 }
 
-.content {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .center {
   position: absolute;
   top: 50%;
@@ -53,6 +48,18 @@ a {
 .content {
   height: 100%;
   width: 100%;
+  background: #efefef;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+}
+
+.words h1 span:hover {
+  color: salmon;
+}
+
+.begin h1 span:hover {
+  color: salmon;
 }
 
 @keyframes spin {
@@ -81,4 +88,3 @@ a {
 .shape-interaction {
   transform: rotate(450deg);
 }
-
