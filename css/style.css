@@ -36,6 +36,11 @@ a {
   color: hsl(17, 51%, 67%);
 }
 
+button {
+  text-decoration: none;
+  color: hsl(17, 51%, 67%);
+}
+
 .center {
   position: absolute;
   top: 50%;
